@@ -8,7 +8,7 @@ async function bootstrap() {
 
   // فعال‌سازی CORS برای فرانت‌اند روی Vercel
   app.enableCors({
-  origin: 'http://localhost:3001', // اینجا پورت فرانت‌اند را بگذارید
+  origin: 'https://chat-gamma-wheat.vercel.app/', // اینجا پورت فرانت‌اند را بگذارید
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
   credentials: true,
 });
